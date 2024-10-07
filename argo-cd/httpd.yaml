@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  sources:
+  source:
     repoURL: 'registry-1.docker.io/mos2'
     targetRevision: 0.1.0
     chart: httpd
