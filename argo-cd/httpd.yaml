@@ -7,9 +7,9 @@ spec:
   project: default
   source:
     chart: httpd
-    repoURL: 'https://mos2dl.github.io/gitops-test-app/docs'
+    repoURL: 'https://mos2dl.github.io/gitops-test-app'
     targetRevision: 0.1.0
-    path: myapp
+    path: docs
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
