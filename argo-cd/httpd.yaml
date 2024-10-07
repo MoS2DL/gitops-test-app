@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  source:
-    chart: httpd
-    repoURL: 'oci://registry-1.docker.io/mos2/httpd'
+  sources:
+    repoURL: 'registry-1.docker.io/mos2'
     targetRevision: 0.1.0
+    chart: httpd
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
