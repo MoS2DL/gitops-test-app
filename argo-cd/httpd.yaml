@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: httpd
-    repoURL: 'https://mos2dl.github.io/gitops-test-app'
+    repoURL: 'oci://registry-1.docker.io/mos2'
     targetRevision: 0.1.0
   destination:
     server: 'https://kubernetes.default.svc'
