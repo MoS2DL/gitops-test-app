@@ -9,7 +9,6 @@ spec:
     chart: httpd
     repoURL: 'https://mos2dl.github.io/gitops-test-app'
     targetRevision: 0.1.0
-    path: docs
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
