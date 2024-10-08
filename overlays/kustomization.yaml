@@ -11,4 +11,3 @@ patches:
     target:
     kind: Ingress
     name: caddy-ingress
-
