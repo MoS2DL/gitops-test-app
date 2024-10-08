@@ -5,13 +5,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: example.com
-    http:
-      paths:
-      - path: /
+    - host: example.com
+  http:
+    paths:
+    - path: /
       pathtype: Prefix
       backend:
-          service:
+        service:
           name: caddy-service
           port:
             name: http
