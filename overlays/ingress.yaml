@@ -8,9 +8,9 @@ spec:
   ingressClassName: nginx
   rules:
     - host: example.com
-    http:
-      paths:
-      - path: /caddy
+      http:
+        paths:
+        - path: /caddy
       pathType: Prefix
       backend:
         service:
